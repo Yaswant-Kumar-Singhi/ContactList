@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    
+}
+
+header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: black;
+   background-image: linear-gradient(blue,white);
+   height: 5vh;
+   width: 100%;
+
+}
+
+
+
+.container{
+    justify-content: center;
+    width: 100vw;
+   
+    
+}

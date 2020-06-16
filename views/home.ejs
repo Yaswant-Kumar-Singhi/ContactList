@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            <%= locals.title %>
+        </title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!--Our CSS File-->
+        <link rel="stylesheet" href="/css/home.css">
+
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <h1 id="page-heading">
+                        <i class="fa fa-address-book"></i>
+                        My contact List
+                    </h1>
+            </nav>
+        </header>
+        
+        <div>
+            <ul>
+                <% for (let i of contact_List) { %> 
+                     <li>
+                         <p><%= i.name %></p>
+                         <p><%= i.phone %></p>
+                     </li>
+                    <% } %>
+            </ul>
+        </div>
+
+        <form action="/create-contact" method="POST">
+            <input type="text" name="name" placeholder="Enter a name" required>
+            <input type="number" name="phone" placeholder="Enter Number">
+            <button type="submit">Add Contact</button>
+        </form>
+    
+
+        <script type="text/javascript" src="/js/home.js"></script>
+    </body>
+</html>

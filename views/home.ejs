@@ -1,25 +1,12 @@
-<html>
-    <head>
-        <title>
-            <%= locals.title %>
-        </title>
+
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
         <!--Our CSS File-->
         <link rel="stylesheet" href="/css/home.css">
 
-    </head>
-    <body>
+   
         
-        <header>
-            <nav>
-                <h1 id="page-heading">
-                        <i class="fa fa-address-book"></i>
-                        My contact List
-                    </h1>
-            </nav>
-        </header>
-        
+     <section id="homeScreen">
         <div>
             <ul>
                 <% for (let i of Contact) { %> 
@@ -56,7 +43,5 @@
         </form>
         </div>
     
-
-        <script type="text/javascript" src="/js/home.js"></script>
-    </body>
-</html>
+    </section>   
+      

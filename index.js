@@ -2,11 +2,14 @@
 const express = require('express');
 const port = 8000;
 const path = require('path');
+const expressLayouts = require('express-ejs-layouts');
 
 /*we need to fire up express so we use app. and call express as function. This app has all the libraries
 needed to run a server*/
 const app = express();
 
+//all the views belongs to some layout
+app.use(expressLayouts);
 //signifies that it is a middleware
 
 app.use(express.urlencoded());

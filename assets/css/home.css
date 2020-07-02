@@ -8,11 +8,12 @@ body{
     font-family: sans-serif;
 }
 
-#page-heading{
-    text-align: center;
-    margin: 1.5em;
-    color: gray;
-    
+section{
+    margin-top: 2rem;
+}
+
+#main-layout{
+    height: 100%;
 }
 
 #eachItem{

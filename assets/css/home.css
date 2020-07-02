@@ -4,26 +4,42 @@
 }
 
 body{
-    
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin: 1.5em;
+    color: gray;
     
 }
 
-header {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   color: black;
-   background-image: linear-gradient(blue,white);
-   height: 5vh;
-   width: 100%;
-
+#eachItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    width: 30%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
 }
 
-
-
-.container{
+#actionItem{
     justify-content: center;
-    width: 100vw;
-   
+    width: 20%;
+}
+
+#eachItemContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: auto;
     
 }
+
+#addContactForm{
+    text-align: center;
+    margin-top: 1rem;
+}
+

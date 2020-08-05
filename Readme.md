@@ -36,7 +36,7 @@ npm install
 ```
 * Run MongoDb Server Locally by using connection string
 ```
-mongodb://localhost/TODO-APP
+mongodb://localhost/contact_list_db
 
 ```
 * Strat by using below command

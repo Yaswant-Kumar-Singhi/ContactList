@@ -48,7 +48,7 @@ npm strat
  
   #### File directory structure.
 ```
-$ tree todo-App
+$ tree 
 .
 ├── assets
 │   ├── css

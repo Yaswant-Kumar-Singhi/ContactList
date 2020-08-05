@@ -1,9 +1,12 @@
 # Contact Manager
 A contact database at your figertips!!!
 
-
 ### Why we should use Contact Manager?
 > One of the most important reasons for keeping a conatct manager is having a huge contact database in your computer.
+
+![](https://img.shields.io/badge/version-1.0.1-orange) ![](https://img.shields.io/badge/dependencies-up%20to%20date-success) 
+![](https://img.shields.io/badge/node--lts%40latest-10.15.0-brightgreen) ![](https://img.shields.io/badge/platform-win--32%20%7C%20win--64-lightgrey)
+![](https://img.shields.io/badge/website-offline-lightgrey)
 
 ### Features
 - [x] Add Name
@@ -23,36 +26,7 @@ MongoDb | 3.5.7
 Express| 4.17.1
 Ejs | 3.1.3
 
-#### My Tree Structure of my Project?
-
-*  ToDo-App
-    - assets
-       - css
-            -header.css
-            -home.css
-            -footer.css
-       - js
-   - Config 
-     - mongoose.js
-   - Controllers
-     - addContactController.js
-     - deleteContactController.js
-     - mainController.js
-   - Models
-     - contact.js 
-   - Routes
-     - index.js 
-   - Views 
-     - layouts.ejs 
-     - footer.ejs
-     - header.ejs
-     - home.ejs
-   - node_modules
-   - gitignore
-   - index.js
-   - package.json 
-   - package-lock.json
-   
+ 
 #### How To Strat my Application?
 
 * Install dependencies for my project to start
@@ -70,6 +44,48 @@ mongodb://localhost/TODO-APP
 npm strat 
  
 ```
+
+ 
+  #### File directory structure.
+```
+$ tree todo-App
+.
+├── assets
+│   ├── css
+|     ├── footer.css
+│     ├── header.css
+|     ├── home.css
+│   ├── js
+|   └── scss
+|    ├── footer.scss
+│    ├── header.scss
+|    ├── home.scss
+├── config
+│   └── mongoose.js
+├── controllers
+│   ├── addContactController.js
+│   ├── deleteContactController.js
+|   └── mainController.js
+├── models
+│   └── contact.js 
+├── routes
+│   └── index.js
+├── views
+│   ├── _footer.ejs
+│   ├── _header.ejs
+|   ├── home.ejs
+|   ├── layout.ejs
+├── index.js
+├── package.json
+├── package-lock.json
+├── node_modules
+└── README.md
+```
+ 
+# :eyes: End of my ReadME. Follow me if you like it!!!
+
+ 
+ 
 
 Have a look at demo Screenshort.
    
